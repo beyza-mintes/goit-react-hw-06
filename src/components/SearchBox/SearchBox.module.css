@@ -1,0 +1,25 @@
+.searchbox {
+  width: 300px;
+  height: 70px;
+  border: 1px solid rgb(189, 232, 238);
+  background-color: rgb(173, 185, 201);
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.searchbox label {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(97, 12, 97);
+}
+
+.searchbox input {
+  width: 200px;
+  height: 25px;
+  background-color: rgb(230, 227, 229);
+  border: 1px solid rgb(157, 135, 150);
+  border-radius: 3px;
+}
