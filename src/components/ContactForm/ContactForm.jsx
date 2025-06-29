@@ -34,6 +34,8 @@ const ContactForm = ({ onAddContact }) => {
             initialValues={initialValues}
             validationSchema={validationSchema}
             onSubmit={handleSubmit}>
+
+
             <Form className={styles.form}>
                 <label htmlFor="name">Name</label>
                 <Field type="text" id="name" name="name" />

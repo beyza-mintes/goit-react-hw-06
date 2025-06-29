@@ -17,3 +17,11 @@
   height: 300px;
   border: 2px solid lightcyan;
 }
+
+.generalContainer {
+  display: flex;
+  flex-direction: column; /* dikey hizalama */
+  align-items: center; /* yatay ortalama */
+  justify-content: flex-start; /* dikey başlangıç */
+  min-height: 100vh; /* ekran yüksekliği kadar */
+}
